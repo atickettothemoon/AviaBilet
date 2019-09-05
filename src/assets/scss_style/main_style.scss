@@ -1,0 +1,98 @@
+
+
+.oneflight{
+    background: #F9FEFE;
+    box-shadow: 0px 4px 4px rgba(0, 108, 187, 0.3);
+    border-radius: 10px;
+    border:none;
+    }
+.wrapper{
+    width: 70%;
+    margin: 0 auto;   
+  }
+  
+.informationfromto, .informationcoast, .informationdatetime{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.informationdatetime > div{
+    margin-right: 20px;
+    font-size: 17px;
+}
+.informationfromto{
+   padding-top: 20px;
+}
+.informationcoast{
+    padding-bottom: 15px;
+}
+.informationcoast > span{
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+.aviafrom ,.aviato, .aviatime{
+    margin-right: 10px;
+} 
+.aviato{
+
+} 
+.name_eng{
+    font-size: 10px;
+   
+}
+.filterGroup{
+    margin-top: 50px;
+    text-align: center;
+}
+  .filterButton{
+    width: 130px;
+    height: 30px;
+    background: linear-gradient(270deg, #997EFC 9.43%, #C250F2 99.99%, rgba(194, 80, 242, 0) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+    color: white;
+  }
+  .filterButtonMargin{
+    margin-bottom: 10px;
+   
+  }
+ .filterButton:hover{
+    background: linear-gradient(270deg, #8767FD 9.43%, #C250F2 99.99%, rgba(185, 48, 243, 0) 100%);
+    box-shadow: none;
+  }
+  body{
+    font-family: 'Old Standard TT', serif;
+    }
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%
+    }
+#app{
+    padding-top: 100px;
+    }
+.iconarrow,.iconprice, .iconbaggage, .iconclass{   
+    display:inline-block;
+}
+.iconprice, .iconbaggage, .iconclass{
+    width:24px; 
+    height:24px; 
+    vertical-align:bottom;
+}
+.iconprice{
+    background: url('credit_card.png') no-repeat left center;
+}
+.iconbaggage{
+    background: url('suitcase.png') no-repeat left center;
+}
+.iconclass{
+    background: url('manager.png') no-repeat left center;  
+}
+.iconarrow{
+    background: url('arrow.png') no-repeat left center;  
+    width:31px; 
+    height:10px;
+}
